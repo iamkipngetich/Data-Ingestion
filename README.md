@@ -1,2 +1,2 @@
 # Data-Ingestion
-Data ngestion from google sheets to postgress database (ETL)
+Data ingestion from google sheets to postgress database (ETL)
