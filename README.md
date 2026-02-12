@@ -1,18 +1,20 @@
-# Data-Ingestion
-Data ingestion from google sheets to postgress database (ETL)
+# **Data-Ingestion**
+## ***Project decription***
+A python ETL project to extract data from google sheet and load it to Postgress database
 
-## step 1: Extract
-  Read data from google sheets
-  Go to Google developers console
-  Create a project
-  Navigate tothe Library and enable APIs that is google sheet and google drive APIs
-  Create credentials to access the APIs, there are three credentials
-  Create a service account credentials
-  From service account create a key and a JSON file is downloaded containg the credentials
-  The JSON file contains client_email that you share with your google sheet
-  
+## ***features***
+- Extract: Read data from google sheet using Google service account
+- Transform: Clean and formart the data
+- Load: Load the data into Postgress Database
 
-
-  Ensure proper authentication and access to the sheet
+## 1. **Extract Data From Google Sheet**
+- Go to [Google cloud Console](https://developers.google.com/workspace/sheets/api/quickstart/python)
+- Create a new project
+- Navigate to API and services- Library and enable
+                 - Google Sheet API
+                 - Google drive API
+- Create a service account under ** IAM & ADMIN - Service account **
+- Using the service account Create a key(JSON) and save it to your workspace
+- Share your google sheet with the ***client_email*** from the JSON file
 
   
