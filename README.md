@@ -10,7 +10,7 @@ A python ETL project to extract data from google sheet and load it to Postgress 
 ## 1. **Extract Data From Google Sheet**
 - Go to [Google cloud Console](https://developers.google.com/workspace/sheets/api/quickstart/python)
 - Create a new project
-- Navigate to API and services- Library and enable
+- Navigate to API and services- Library and enable:
                  - Google Sheet API
                  - Google drive API
 - Create a service account under ** IAM & ADMIN - Service account **
